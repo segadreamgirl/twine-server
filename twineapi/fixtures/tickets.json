@@ -1,0 +1,63 @@
+[
+    {
+        "model": "twineapi.ticket",
+        "pk": 1,
+        "fields": {
+            "title": "Remote Work Eligibility",
+            "description": "revise section 2.3a regarding  remote work eligibility for those not working out of Nashville, TN. Must include technology requirements, and what equipment is provided by MK inc.",
+            "project": 8,
+            "assignee": null,
+            "completed": 0
+        }
+    },    {
+        "model": "twineapi.ticket",
+        "pk": 2,
+        "fields": {
+            "title": "In-Office Dress",
+            "description": "revise section 2.3a regarding  remote work eligibility for those not working out of Nashville, TN. Must include technology requirements, and what equipment is provided by MK inc.",
+            "project": 8,
+            "assignee": 1,
+            "completed": 0
+        }
+    },    {
+        "model": "twineapi.ticket",
+        "pk": 3,
+        "fields": {
+            "title": "401K Matching",
+            "description": "revise section 2.3a regarding  remote work eligibility for those not working out of Nashville, TN. Must include technology requirements, and what equipment is provided by MK inc.",
+            "project": 8,
+            "assignee": 1,
+            "completed": 0
+        }
+    },    {
+        "model": "twineapi.ticket",
+        "pk": 4,
+        "fields": {
+            "title": "Sabbatical Leave",
+            "description": "revise section 2.3a regarding  remote work eligibility for those not working out of Nashville, TN. Must include technology requirements, and what equipment is provided by MK inc.",
+            "project": 8,
+            "assignee": 1,
+            "completed": 0
+        }
+    },    {
+        "model": "twineapi.ticket",
+        "pk": 5,
+        "fields": {
+            "title": "Tuition Reimbursement",
+            "description": "revise section 2.3a regarding  remote work eligibility for those not working out of Nashville, TN. Must include technology requirements, and what equipment is provided by MK inc.",
+            "project": 8,
+            "assignee": 2,
+            "completed": 1
+        }
+    },{
+        "model": "twineapi.ticket",
+        "pk": 6,
+        "fields": {
+            "title": "Parental Leave",
+            "description": "revise section 2.3a regarding  remote work eligibility for those not working out of Nashville, TN. Must include technology requirements, and what equipment is provided by MK inc.",
+            "project": 8,
+            "assignee": 2,
+            "completed": 1
+        }
+    }
+]

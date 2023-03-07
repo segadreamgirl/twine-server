@@ -1,0 +1,38 @@
+[
+    {
+        "model": "twineapi.flag",
+        "pk": 1,
+        "fields": {
+            "name":"high priority",
+            "color":"#FF0000"
+        }
+    },    {
+        "model": "twineapi.flag",
+        "pk": 2,
+        "fields": {
+            "name":"requires lead approval",
+            "color":"#2D9BF0"
+        }
+    },    {
+        "model": "twineapi.flag",
+        "pk": 3,
+        "fields": {
+            "name":"low priority",
+            "color":"#FFFAA4"
+        }
+    },    {
+        "model": "twineapi.flag",
+        "pk": 4,
+        "fields": {
+            "name":"big task",
+            "color":"#BFA7DF"
+        }
+    },    {
+        "model": "twineapi.flag",
+        "pk": 5,
+        "fields": {
+            "name":"small task",
+            "color":"#A7E8C4"
+        }
+    }
+]

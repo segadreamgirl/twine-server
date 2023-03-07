@@ -1,0 +1,38 @@
+[
+    {
+        "model": "twineapi.department",
+        "pk": 1,
+        "fields": {
+            "name":"Accounts and Finance",
+            "color":"#FFFAA4"
+        }
+    },    {
+        "model": "twineapi.department",
+        "pk": 2,
+        "fields": {
+            "name":"Human Resources",
+            "color":"#A7E8C4"
+        }
+    },    {
+        "model": "twineapi.department",
+        "pk": 3,
+        "fields": {
+            "name":"IT Infrastructure",
+            "color":"#E1B2B2"
+        }
+    },    {
+        "model": "twineapi.department",
+        "pk": 4,
+        "fields": {
+            "name":"Software Engineering",
+            "color":"#ACD2FF"
+        }
+    },    {
+        "model": "twineapi.department",
+        "pk": 5,
+        "fields": {
+            "name":"Sales and Marketing",
+            "color":"#BFA7DF"
+        }
+    }
+]

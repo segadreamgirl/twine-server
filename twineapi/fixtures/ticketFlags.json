@@ -1,0 +1,87 @@
+[
+    {
+        "model": "twineapi.ticketflag",
+        "pk": 1,
+        "fields": {
+            "ticket": 1,
+            "flag": 1
+        }
+    },    {
+        "model": "twineapi.ticketflag",
+        "pk": 2,
+        "fields": {
+            "ticket":1,
+            "flag": 4
+        }
+    },    {
+        "model": "twineapi.ticketflag",
+        "pk": 3,
+        "fields": {
+            "ticket":2,
+            "flag": 5
+        }
+    },    {
+        "model": "twineapi.ticketflag",
+        "pk": 4,
+        "fields": {
+            "ticket":2,
+            "flag": 2
+        }
+    },    {
+        "model": "twineapi.ticketflag",
+        "pk": 5,
+        "fields": {
+            "ticket":3,
+            "flag": 1
+        }
+    },{
+        "model": "twineapi.ticketflag",
+        "pk": 6,
+        "fields": {
+            "ticket":3,
+            "flag": 5
+        }
+    },    {
+        "model": "twineapi.ticketflag",
+        "pk": 7,
+        "fields": {
+            "ticket": 4,
+            "flag": 2
+        }
+    },    {
+        "model": "twineapi.ticketflag",
+        "pk": 8,
+        "fields": {
+            "ticket": 4,
+            "flag": 4
+        }
+    },{
+        "model": "twineapi.ticketflag",
+        "pk": 9,
+        "fields": {
+            "ticket": 5,
+            "flag": 1
+        }
+    },{
+        "model": "twineapi.ticketflag",
+        "pk": 10,
+        "fields": {
+            "ticket": 5,
+            "flag": 5
+        }
+    }, {
+        "model": "twineapi.ticketflag",
+        "pk": 11,
+        "fields": {
+            "ticket":6,
+            "flag": 3
+        }
+    },    {
+        "model": "twineapi.ticketflag",
+        "pk": 12,
+        "fields": {
+            "ticket":6,
+            "flag": 2
+        }
+    }
+]

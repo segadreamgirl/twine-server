@@ -1,0 +1,87 @@
+[
+    {
+        "model": "twineapi.projectteam",
+        "pk": 1,
+        "fields": {
+            "employee":"1",
+            "project": 8
+        }
+    },    {
+        "model": "twineapi.projectteam",
+        "pk": 2,
+        "fields": {
+            "employee":17,
+            "project": 8
+        }
+    },    {
+        "model": "twineapi.projectteam",
+        "pk": 3,
+        "fields": {
+            "employee":16,
+            "project": 8
+        }
+    },    {
+        "model": "twineapi.projectteam",
+        "pk": 4,
+        "fields": {
+            "employee":3,
+            "project": 5
+        }
+    },    {
+        "model": "twineapi.projectteam",
+        "pk": 5,
+        "fields": {
+            "employee":4,
+            "project": 1
+        }
+    },{
+        "model": "twineapi.projectteam",
+        "pk": 6,
+        "fields": {
+            "employee":6,
+            "project": 2
+        }
+    },    {
+        "model": "twineapi.projectteam",
+        "pk": 7,
+        "fields": {
+            "employee": 17,
+            "project": 9
+        }
+    },    {
+        "model": "twineapi.projectteam",
+        "pk": 8,
+        "fields": {
+            "employee": 10,
+            "project": 6
+        }
+    },{
+        "model": "twineapi.projectteam",
+        "pk": 9,
+        "fields": {
+            "employee": 11,
+            "project": 6
+        }
+    },{
+        "model": "twineapi.projectteam",
+        "pk": 10,
+        "fields": {
+            "employee": 12,
+            "project": 6
+        }
+    }, {
+        "model": "twineapi.projectteam",
+        "pk": 11,
+        "fields": {
+            "employee":9,
+            "project": 11
+        }
+    },    {
+        "model": "twineapi.projectteam",
+        "pk": 12,
+        "fields": {
+            "employee":20,
+            "project": 11
+        }
+    }
+]

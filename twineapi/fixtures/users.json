@@ -1,0 +1,313 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "hpreza@maunakea.com",
+            "first_name": "Hazel",
+            "last_name": "Preza",
+            "email": "hpreza@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-13T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=zo=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "sbrownlee@maunakea.com",
+            "first_name": "Steve",
+            "last_name": "Brownlee",
+            "email": "sbrownlee@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-13T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=5u5Xnc/4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jdoll@maunakea.com",
+            "first_name": "John",
+            "last_name": "Doll",
+            "email": "jdoll@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-13T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=Pev0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "vspear@maunakea.com",
+            "first_name": "Vanessa",
+            "last_name": "Spear",
+            "email": "vspear@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-13T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "mdutta@maunakea.com",
+            "first_name": "Maia",
+            "last_name": "Dutta",
+            "email": "mdutta@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=szIMrFGOg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "scouch@maunakea.com",
+            "first_name": "Shaina",
+            "last_name": "Couch",
+            "email": "scouch@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=x7nc=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "sdickson@maunakea.com",
+            "first_name": "Sydney",
+            "last_name": "Dickson",
+            "email": "sdickson@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "aulmer@maunakea.com",
+            "first_name": "Amy",
+            "last_name": "Ulmer",
+            "email": "aulmer@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "dlambert@maunakea.com",
+            "first_name": "Dakota",
+            "last_name": "Lambert",
+            "email": "dlambert@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 10,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "bpartida@maunakea.com",
+            "first_name": "Brandon",
+            "last_name": "Partida",
+            "email": "bpartida@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 11,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jmeeker@maunakea.com",
+            "first_name": "Jes",
+            "last_name": "Meeker",
+            "email": "jmeeker@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 12,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "enelson@maunakea.com",
+            "first_name": "Emily",
+            "last_name": "Nelson",
+            "email": "enelson@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 13,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "nvaldez@maunakea.com",
+            "first_name": "Nicholas",
+            "last_name": "Valdez",
+            "email": "nvaldez@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 14,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "cseales@maunakea.com",
+            "first_name": "Charles",
+            "last_name": "Seales",
+            "email": "cseales@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 15,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jperkins@maunakea.com",
+            "first_name": "Jordon",
+            "last_name": "Perkins",
+            "email": "jperkins@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 16,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "mhedges@maunakea.com",
+            "first_name": "Matthew",
+            "last_name": "Hedges",
+            "email": "mhedges@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 17,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "gboaz@maunakea.com",
+            "first_name": "Grace",
+            "last_name": "Boaz",
+            "email": "gboaz@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 18,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "rcanepa@maunakea.com",
+            "first_name": "Ricky",
+            "last_name": "Canepa",
+            "email": "rcanepa@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 19,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "cle@maunakea.com",
+            "first_name": "Christy",
+            "last_name": "Le",
+            "email": "cle@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    },   {
+        "model": "auth.user",
+        "pk": 20,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$cK4nlKiHnAvicY4AbcURS6$JWanvidq9mu9yxJFn48JTjiEj59wAdVE0xvLtTCAhzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jlinkous@maunakea.com",
+            "first_name": "James",
+            "last_name": "Linkous",
+            "email": "jlinkous@maunakea.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-02-14T00:00:00Z"
+        }
+    }
+]
