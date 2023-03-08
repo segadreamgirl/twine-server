@@ -14,8 +14,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
+from django.conf import settings
+from django.conf.urls.static import static
+from rest_framework import routers
+from twineapi.views import EmployeeView, ProjectView, TicketView
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'employees', EmployeeView, 'employee')
+router.register(r'projects', ProjectView, 'project')
+router.register(r'tickets', TicketView, 'ticket')
 
 urlpatterns = [
+    path('', include(router.urls)),
     path('admin/', admin.site.urls),
 ]

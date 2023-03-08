@@ -4,5 +4,5 @@ from .project import Project
 
 
 class ProjectTeam(models.Model):
-    employee = models.ForeignKey(User, on_delete=models.DO_NOTHING)
-    project = models.ForeignKey(Project, on_delete=models.DO_NOTHING, related_name="number_of_projects")
+    employee = models.ForeignKey(User, on_delete=models.DO_NOTHING, related_name="number_of_projects")
+    project = models.ForeignKey(Project, on_delete=models.DO_NOTHING, related_name="team_members")
