@@ -47,7 +47,7 @@ class EmployeeDeptSerializer(serializers.ModelSerializer):
     """JSON serializer for employee parks"""
     class Meta:
         model = Department
-        fields = ('id', 'name','color')
+        fields = ('id', 'name')
 
 class EmployeeSerializer(serializers.ModelSerializer):
     """JSON serializer for songs"""

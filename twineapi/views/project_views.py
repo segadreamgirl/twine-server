@@ -38,8 +38,8 @@ class LeadSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'first_name', 'last_name', 'employee_account')
-        depth = 1
+        fields = ('id', 'employee_account')
+        depth = 2
 
 class ProjectSerializer(serializers.ModelSerializer):
     """JSON serializer for songs"""
