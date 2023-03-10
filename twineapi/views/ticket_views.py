@@ -25,9 +25,15 @@ class TicketView(ViewSet):
         """
 
         tickets=[]
-
+        
         if "project_id" in request.query_params:
             tickets = Ticket.objects.filter(project = request.query_params['project_id'])
+            if "unassigned" in request.query_params:
+                tickets = Ticket.objects.filter(assignee__isnull=True)
+            if "assigned" in request.query_params:
+                tickets = Ticket.objects.filter(assignee__isnull=False).exclude(completed = True)
+            if "completed" in request.query_params:
+                tickets = Ticket.objects.filter(completed=True)
         else:
             tickets = Ticket.objects.all()
 
