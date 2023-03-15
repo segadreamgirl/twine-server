@@ -29,11 +29,11 @@ class TicketView(ViewSet):
         if "project_id" in request.query_params:
             tickets = Ticket.objects.filter(project = request.query_params['project_id'])
             if "unassigned" in request.query_params:
-                tickets = Ticket.objects.filter(assignee__isnull=True)
+                tickets = Ticket.objects.filter(project= request.query_params['project_id'], assignee__isnull=True)
             if "assigned" in request.query_params:
-                tickets = Ticket.objects.filter(assignee__isnull=False).exclude(completed = True)
+                tickets = Ticket.objects.filter(project= request.query_params['project_id'], assignee__isnull=False).exclude(completed = True)
             if "completed" in request.query_params:
-                tickets = Ticket.objects.filter(completed=True)
+                tickets = Ticket.objects.filter(project= request.query_params['project_id'],completed=True)
         else:
             tickets = Ticket.objects.all()
 
@@ -48,8 +48,7 @@ class TicketView(ViewSet):
         new_ticket = Ticket()
         new_ticket.title = request.data['title']
         new_ticket.description = request.data['description']
-        new_ticket.project= Project.objects.get(pk=request.data['project_id'])
-        new_ticket.assignee = User.objects.get(pk=request.data['assignee'])
+        new_ticket.project= Project.objects.get(pk=request.data['project'])
         new_ticket.completed = request.data['completed']
 
         new_ticket.save()

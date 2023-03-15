@@ -18,12 +18,13 @@ from django.urls import include, path
 from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework import routers
-from twineapi.views import EmployeeView, ProjectView, TicketView, login_user, register_user
+from twineapi.views import EmployeeView, ProjectView, TicketView, login_user, register_user, TeamView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'employees', EmployeeView, 'employee')
 router.register(r'projects', ProjectView, 'project')
 router.register(r'tickets', TicketView, 'ticket')
+router.register(r'teams', TeamView, 'team')
 
 urlpatterns = [
     path('register', register_user),

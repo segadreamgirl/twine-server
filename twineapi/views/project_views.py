@@ -27,8 +27,10 @@ class ProjectView(ViewSet):
         Returns:
             Response -- JSON serialized list of projects
         """
-
-        projects = Project.objects.all()
+        if"lead_id" in request.query_params:
+            projects = Project.objects.filter(lead = request.query_params['lead_id'])
+        else:
+            projects = Project.objects.all()
 
         serialized = ProjectSerializer(projects, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
