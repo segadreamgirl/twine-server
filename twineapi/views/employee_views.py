@@ -37,6 +37,23 @@ class EmployeeView(ViewSet):
         serialized = EmployeeSerializer(employees, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
+
+    def create(self, request):
+        """Handles POST requests for tickets
+        Returns:
+            Response: JSON serialized representation of newly created ticket"""
+
+        new_employee = Employee()
+        new_employee.user = User.objects.get(pk=request.data['user_id'])
+        new_employee.department = Department.objects.get(pk=request.data['department_id'])
+        new_employee.profile_pic= request.data['profile_pic']
+
+        new_employee.save()
+
+        serialized = EmployeeSerializer(new_employee, many=False)
+
+        return Response(serialized.data, status=status.HTTP_201_CREATED)
+    
 class EmployeeUserSerializer(serializers.ModelSerializer):
     """JSON serializer for employee users"""
     class Meta:

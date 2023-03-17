@@ -161,7 +161,7 @@
             "department": 5,
             "profile_pic":"https://res.cloudinary.com/dlqzyf0xf/image/upload/v1678223310/twine/christy_ibrpzo.png"
         }
-    },   {
+    },{
         "model": "twineapi.employee",
         "pk": 20,
         "fields": {
