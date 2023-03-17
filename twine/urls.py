@@ -18,7 +18,7 @@ from django.urls import include, path
 from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework import routers
-from twineapi.views import EmployeeView, ProjectView, TicketView, login_user, register_user, TeamView, DepartmentView
+from twineapi.views import EmployeeView, ProjectView, TicketView, login_user, register_user, TeamView, DepartmentView, MessageView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'employees', EmployeeView, 'employee')
@@ -26,6 +26,7 @@ router.register(r'projects', ProjectView, 'project')
 router.register(r'tickets', TicketView, 'ticket')
 router.register(r'teams', TeamView, 'team')
 router.register(r'departments', DepartmentView, 'department')
+router.register(r'messages', MessageView, 'message')
 
 urlpatterns = [
     path('register', register_user),
