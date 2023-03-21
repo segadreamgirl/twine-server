@@ -1,0 +1,202 @@
+[
+    {
+        "model": "twineapi.message",
+        "pk": 1,
+        "fields": {
+            "body": "Circle back even dead cats bounce, draft policy ppml proposal we need evergreen content make it look like digital both the angel on my left shoulder and the devil on my right are eager to go to the next board meeting and say weâ€™re ditching the business model, or accountable talk. Focus on the customer journey pivot focus on the customer journey, so we need to harvest synergy effects, yet weâ€™re starting to formalize flexible opinions around our foundations pulling teeth, for open door policy.",
+            "sender": 1,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:00"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 2,
+        "fields": {
+            "body": "Make it a priority offline this discussion, and proceduralize 4-blocker.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:00"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 3,
+        "fields": {
+            "body": "I called the it department about that ransomware because of the old antivirus, but he said that we were using avast 2021 going forward hit the ground running, and put it on the parking lot quick-win.",
+            "sender": 7,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:00"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 4,
+        "fields": {
+            "body": "Throughput cross functional teams enable out of the box brainstorming product management breakout fastworks, or powerPointless, nor close the loop.",
+            "sender": 2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:30"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 5,
+        "fields": {
+            "body": "for teams were able to drive adoption and awareness, but workflow ecosystem. Going forward.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:31"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 6,
+        "fields": {
+            "body": "Leverage agile frameworks to provide a robust synopsis for high level overviews. ",
+            "sender": 2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:32"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 7,
+        "fields": {
+            "body": "Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:33"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 8,
+        "fields": {
+            "body": "Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:32"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 9,
+        "fields": {
+            "body": "We need to follow protocol gain traction. Quarterly sales are at an all-time low can you put it on my calendar?, for put your feelers out, drink the Kool-aid.",
+            "sender": 20,
+            "receiver": 1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:00"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 10,
+        "fields": {
+            "body": "Hard stop. Can you send me an invite?",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:45"
+        }
+    },
+    {
+        "model": "twineapi.message",
+        "pk": 11,
+        "fields": {
+            "body": "Deep dive bench mark this medium needs to be more dynamic. Punter pivot. Net net turd polishing, and new economy. Churning anomalies weaponize the data.",
+            "sender":2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:46"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 12,
+        "fields": {
+            "body": "Game-plan can you put it into a banner that is not alarming, but eye catching and not too giant, or turn the ship price point.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:48"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 13,
+        "fields": {
+            "body": "Translating our vision of having a market leading platfrom. Where do we stand on the latest client ask. Bake it in. ",
+            "sender": 2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:49"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 14,
+        "fields": {
+            "body": "re there any leftovers in the kitchen? upsell slow-walk our commitment, yet let's see if we can dovetail these two projects.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:50"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 15,
+        "fields": {
+            "body": "Imagineer. Data-point high-level knowledge is power we need to crystallize a plan, unlock meaningful moments of relaxation, and introduccion.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:51"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 16,
+        "fields": {
+            "body": "Mobile friendly value-added, for the last person we talked to said this would be ready. ",
+            "sender": 2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:52"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 17,
+        "fields": {
+            "body": "It is all exactly as i said, but i don't like it introduccion.",
+            "sender": 2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:53"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 18,
+        "fields": {
+            "body": "We need to have a Come to Jesus meeting with Phil about his attitude pro-sumer software show pony, so we need to harvest synergy effects.",
+            "sender": 1,
+            "receiver":2,
+            "time_sent":"2018-11-20T15:58:44.767594-06:54"
+        }
+    },   {
+        "model": "twineapi.message",
+        "pk": 19,
+        "fields": {
+            "body": "Push back. Powerpoint Bunny three-martini lunch, or products need full resourcing and support from a cross-functional team in order to be built, maintained, and evolved pushback.",
+            "sender": 2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:55"
+        }
+    },{
+        "model": "twineapi.message",
+        "pk": 20,
+        "fields": {
+            "body": "Optimize for search clear blue water, for can we align on lunch orders. In this space diversify kpis, and what's the status on the deliverables for eow?",
+            "sender": 2,
+            "receiver":1,
+            "time_sent":"2018-11-20T15:58:44.767594-06:56"
+        }
+    },{
+        "model": "twineapi.message",
+        "pk": 21,
+        "fields": {
+            "body": "hi sydney hello how are you woot woot woot woot woot woot",
+            "sender": 1,
+            "receiver":7,
+            "time_sent":"2018-11-20T15:59:44.767594-06:56"
+        }
+    }
+]
