@@ -30,12 +30,28 @@ class MessageView(ViewSet):
         if "sender_id" in request.query_params:
             messages = Message.objects.filter(sender = request.query_params['sender_id'])
         elif "receiver_id" in request.query_params:
-            messages = Message.objects.filter(receiver = request.query_params['receiver_id'])
+            messages = Message.objects.filter(receiver = request.query_params['receiver_id']).exclude(sender=request.query_params['receiver_id'])
         else:
             messages = Message.objects.all()
 
         serialized = MessageSerializer(messages, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
+    
+    def create(self, request):
+        """Handles POST requests for tickets
+        Returns:
+            Response: JSON serialized representation of newly created ticket"""
+
+        new_message = Message()
+        new_message.body = request.data['body']
+        new_message.sender = User.objects.get(pk=request.data['sender_id'])
+        new_message.receiver= User.objects.get(pk=request.data['receiver_id'])
+
+        new_message.save()
+
+        serialized = MessageSerializer(new_message, many=False)
+
+        return Response(serialized.data, status=status.HTTP_201_CREATED)
 
 class UserSerializer(serializers.ModelSerializer):
     """JSON serializer for users associated with a conversation"""

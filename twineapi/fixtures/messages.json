@@ -189,5 +189,14 @@
             "receiver":1,
             "time_sent":"2018-11-20T15:58:44.767594-06:56"
         }
+    },{
+        "model": "twineapi.message",
+        "pk": 21,
+        "fields": {
+            "body": "hi sydney hello how are you woot woot woot woot woot woot",
+            "sender": 1,
+            "receiver":7,
+            "time_sent":"2018-11-20T15:59:44.767594-06:56"
+        }
     }
 ]
